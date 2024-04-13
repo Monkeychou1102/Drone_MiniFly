@@ -1,0 +1,18 @@
+---------------------------------------Main Board (Drone)---------------------------------------
+U2 - STM32F411CE
+U3 - XC6204-30 (300mA/150mA High Speed LDO Regulators with ON-OFF Control )
+U4 - TP4059 (900mA Linear Li-Ion Battery Chargers with Thermal Regulation)
+U5 - XC6204-30 (300mA/150mA High Speed LDO Regulators with ON-OFF Control )
+U6 - NRF51822 (Multiprotocol Bluetooth)
+U7 - 2450BM14A0002 (Filter - 2.45 GHz Impedance Matched Balun-Filter)
+U8 - RFX2401C (PA and LNA - 2.4 GHz Zigbee / ISM Front-End Module)
+U9 - MPU9250 (加速度 Accelerometer, 陀螺儀 Gyroscope, 指南針磁場傳感器 Magnetometer, 九軸/9軸姿態)
+U10 - BMP280 (Pressure Sensor)
+
+MOSFET x 4 (MOSFET) - MOS3-SI2302
+
+---------------------------------------Remote Board---------------------------------------
+U4 - NRF24L01 (2.4GHz Transceiver)
+U5 - 2450BM14A0002 (Filter - 2.45 GHz Impedance Matched Balun-Filte)
+U6 - RFX2401C (PA and LNA - 2.4 GHz Zigbee / ISM Front-End Module)
+U7 - 2450BP14D0100 (Filter - 2.45GHz Band Pass Filter)
